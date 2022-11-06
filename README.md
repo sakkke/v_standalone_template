@@ -1,5 +1,6 @@
 # v_standalone_template
-A V template for standalone executables, including MIT license, a dev container and GitHub Actions workflows.
+A V template for **standalone executables**, including MIT license, a dev container and GitHub Actions workflows.
+If you want to create a package, you can see [v_package_template](https://github.com/sakkke/v_package_template).
 
 ## Quick start guide
 
