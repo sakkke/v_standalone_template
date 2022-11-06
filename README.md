@@ -3,7 +3,6 @@ A V template for **standalone executables**, including MIT license, a dev contai
 If you want to create a package, you can see [v_package_template](https://github.com/sakkke/v_package_template).
 
 ## Quick start guide
-
 1. [Create a repository with this repository as a template](https://github.com/sakkke/v_standalone_template/generate).
 2. Clone a created package to a local environment.
 3. Run a command `git ls-files | grep -v '^README.md$' | xargs -I{} sed -i s/v_standalone_template/your_executable_name/g {}`.
@@ -11,5 +10,4 @@ If you want to create a package, you can see [v_package_template](https://github
 5. Clean up a file `./your_executable_name.v` and `./README.md`.
 
 ## License
-
 MIT
