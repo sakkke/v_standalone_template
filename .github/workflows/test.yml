@@ -7,4 +7,6 @@ jobs:
         uses: actions/checkout@v3
       - name: Setup Vlang
         uses: vlang/setup-v@v1.1
+        with:
+          version: 54b623743d12306aac8d0091daf3149299d5fe9e
       - run: v test .
